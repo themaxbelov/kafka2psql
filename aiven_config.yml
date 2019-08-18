@@ -1,0 +1,15 @@
+kafka_host: kafka_hostname
+kafka_port: 25929
+kafka_topic: events
+kafka_consumer_group: events
+
+kafka_security_protocol: SSL
+kafka_cafile: aiven_creds/ca.pem
+kafka_certfile: aiven_creds/service.cert
+kafka_keyfile: aiven_creds/service.key
+
+psql_host: psql_hostname
+psql_port: 25927
+psql_user: avnadmin
+psql_password: psql_password
+psql_schema: events
